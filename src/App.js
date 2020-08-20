@@ -5,6 +5,7 @@ import DateInput from './Components/DateInput';
 import NumberInput from './Components/NumberInput';
 import ButtonInput from './Components/ButtonInput';
 import RadioInput from './Components/RadioInput';
+import ColorInput from './Components/ColorInput';
 
 class App extends Component  {
   render() {
@@ -16,24 +17,8 @@ class App extends Component  {
           <NumberInput/>
           <ButtonInput/>
           <RadioInput/>
+          <ColorInput/>
           
-          <li className="ColorInput cards-item">
-            <div className="card">
-              <div className="card-content">
-                <div className="card-image"></div>
-                <div className="card-title">Color</div>
-                <p className="card-text">
-                  <div className="input btn-block">
-                    <input type="color" className="colorButton"/>
-                  </div>
-                  <div className="output" >
-                    <label for="colorOutput">State: </label>
-                    <span name="colorOutput"></span>
-                  </div>
-                </p>
-              </div>
-            </div>
-          </li>
           <li className="CheckboxInput cards-item">
             <div className="card">
               <div className="card-content">

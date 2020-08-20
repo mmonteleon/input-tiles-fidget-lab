@@ -62,6 +62,6 @@ export default ButtonInput;
 //constructor function
 //handleChange function
 //render function
-//Within render there must be an event handler
+//Within render there must be an event handler that calls handleChange
 //export statement at the end
 
